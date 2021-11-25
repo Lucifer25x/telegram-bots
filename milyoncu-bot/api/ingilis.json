@@ -1,0 +1,30 @@
+[
+    {
+        "sual": "hello - ?",
+        "a": "Xoş gəldiniz.",
+        "b": "Salam",
+        "c": "Necəsən?",
+        "cavab": "b"
+    },
+    {
+        "sual": "bed - ?",
+        "a": "lampa",
+        "b": "kitab",
+        "c": "yataq",
+        "cavab": "c"
+    },
+    {
+        "sual": "book - ?",
+        "a": "kitab",
+        "b": "qələm",
+        "c": "çanta",
+        "cavab": "a"
+    },
+    {
+        "sual": "welcome - ?",
+        "a": "Necəsən?",
+        "b": "Xoş gəldiniz",
+        "c": "Hardasan?",
+        "cavab": "b"
+    }
+]
