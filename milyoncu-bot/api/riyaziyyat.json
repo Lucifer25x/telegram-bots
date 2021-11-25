@@ -1,0 +1,107 @@
+[
+    {
+        "sual":"Həyətdə 7 quş - xoruz və toyuqlar gəzirdi. Hər bir toyuğun 2 cücəsi var. Həyətdə neçə toyuq vardı?",
+        "a":"4",
+        "b":"1",
+        "c":"2",
+        "cavab": "c"
+    },
+    {
+        "sual": "Səbətdə bir neçə alma var. Onların sayı 10-dan azdır. Almaları iki və ya üç uşağa bərabər sayda vermək mümkündürsə, onların sayını tapın.",
+        "a": "9",
+        "b": "6",
+        "c": "5",
+        "cavab": "b"
+    },
+    {
+        "sual": "Balıqçı 15 kq balıq ovladı və onları bir birindən fərqlənən 5 hissəyə ayırdı. Bunu necə etdi?",
+        "a": "2,4,4,1,5",
+        "b": "3,2,1,5,4",
+        "c": "1,2,4,5,6",
+        "cavab": "b"
+    },
+    {
+        "sual": "Bir qutuda 40 ədəd qələm, digər qutuda isə onun yarısı qədər az qələm var.Bütün qələmlərin yarısının yarısı nə qədərdir?",
+        "a": "15",
+        "b": "60",
+        "c": "30",
+        "cavab": "a"
+    },
+    {
+        "sual": "İki almanın çəkisi 4 pomidorun , 1 almanın çəkisi isə 3 turpun çəkisinə bərabərdir. Tərəzinin sag gözündə 1 alma və 3 turp var. Onun sol gözünə neçə ədəd pomidor qoymaq lazımdır ki, tərəzi tarazlıq vəziyyətində olsun.",
+        "a": "4",
+        "b": "1",
+        "c": "2",
+        "cavab": "a"
+    },
+    {
+        "sual":"Tarazlıqda olan gözlü tərəzinin bir gözündə 100 qramlıq çəki daşı və iki eyni parça sabun, o biri gözündə isə 700 qrama bərabər çəki daşları var. Bir parça sabunun neçə qram olduğunu tapmağa calışın.",
+        "a":"300",
+        "b":"200",
+        "c":"600",
+        "cavab":"a"
+    },
+    {
+        "sual": "6 kartof 30 dəqiqəyə bişir. Sizcə bir kartof necə dəqiqəyə bişər?",
+        "a": "10",
+        "b": "5",
+        "c": "30",
+        "cavab": "c"
+    },
+    {
+        "sual": "Aynur ön tərəfdən ikinci , arxa tərəfdən isə dördüncü olan partanın arxasında oturmuşdur. Bu sıradakı partaların sayıni tapa bilərsinizmi?",
+        "a": "4",
+        "b": "3",
+        "c": "5",
+        "cavab": "c"
+    },
+    {
+        "sual": "Oğlanın 2 müxtəlif rəngli şalvarı və 3 fərqli formalı köynəyi var. Köynək və şalvarlardan neçə cür geyim dəsti düzəltmək olar?",
+        "a": "5",
+        "b": "6",
+        "c": "9",
+        "cavab": "b"
+    },
+    {
+        "sual": "Sizcə binanın üst tərəfindən baxdıqda iyirmimərtəbəli binanın üçüncü mərtəbəsi neçənci mərtəbə olar?",
+        "a": "12",
+        "b": "16",
+        "c": "18",
+        "cavab": "c"
+    },
+    {
+        "sual": "Qutuda 64 kiçik kub vardı. Beş qardaş belə qərara gəldilər ki, ardıcıl olaraq onların hər biri qutuda qalan bütün kubların yarısını götürəcək. Birinci qardaş qutudakı 64 kubun yarısını, ikincisi qalan kubların yarısını götürdü. Bu qayda ilə proses davam etsə, beşinci qardaş neçə kub götürər?",
+        "a": "2",
+        "b": "8",
+        "c": "4",
+        "cavab": "c"
+    },
+    {
+        "sual": "Lalə, Sara və Sona dostluq edirlər. Onların hər biri digərlərinə öz şəklini verdi. Paylanan şəkillərin sayının nə qədər olduğunu deyə bilərsinizmi?",
+        "a": "9",
+        "b": "3",
+        "c": "6",
+        "cavab": "c"
+    },
+    {
+        "sual": "Bir su qabında 18 vedrə , o birində isə 12 vedrə su var. Bir su qabından digərinə neçə vedrə su tökmək lazımdır ki, suyun miqdarı bərarər olsun?",
+        "a": "3",
+        "b": "6",
+        "c": "4",
+        "cavab": "a"
+    },
+    {
+        "sual": "Vaşaq 6 saat ərzində 600 kq , pələng isə ondan iki dəfə tez yeyir.Onlar birlikdə bu qədər əti neçə saata yeyər?",
+        "a": "3",
+        "b": "1",
+        "c": "2",
+        "cavab": "c"
+    },
+    {
+        "sual": "Ləkdə 6 sərçə oturmuşdu. Daha 4 sərçə onların yanina uçdu. Pişik ogrun – ogrun yaxınlaşıb , onlardan birini tutdu. Ləkdə neçə sərçə qaldı?",
+        "a": "10",
+        "b": "0",
+        "c": "8",
+        "cavab": "b"
+    }
+]
