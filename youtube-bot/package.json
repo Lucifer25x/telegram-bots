@@ -1,0 +1,17 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@fabricio-191/youtube": "^0.0.2-6",
+    "dotenv": "^10.0.0",
+    "telegraf": "^4.4.2"
+  }
+}
