@@ -1,0 +1,18 @@
+{
+  "name": "quote-tg-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "14.17.3"
+  },
+  "keywords": [],
+  "author": "Lucifer25x",
+  "license": "MIT",
+  "dependencies": {
+    "telegraf": "^4.4.0"
+  }
+}
