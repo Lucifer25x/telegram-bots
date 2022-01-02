@@ -60,9 +60,7 @@ bot.command("gstop", ctx => {
 })
 
 bot.on("text", ctx => {
-    if (herf == "") {
-
-    } else {
+    if (herf.length > 0) {
         if (player == ctx.update.message.from.username) {
             bot.telegram.sendMessage(
                 ctx.chat.id,
