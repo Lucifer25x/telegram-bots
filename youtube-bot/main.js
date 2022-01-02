@@ -1,6 +1,6 @@
 // Import some important modules
 const { Telegraf } = require('telegraf');
-const { getVideo, getPlaylist, search } = require('@fabricio-191/youtube')
+const { getVideo, search } = require('@fabricio-191/youtube')
     .setDefaultOptions({
         location: 'EN',
         language: 'EN'
