@@ -5,7 +5,7 @@ const { getVideo, getPlaylist, search } = require('@fabricio-191/youtube')
         location: 'EN',
         language: 'EN'
     });
-const dotenv = require('dotenv').config();
+//const dotenv = require('dotenv').config();
 
 // Get Token
 const token = process.env.TOKEN;
