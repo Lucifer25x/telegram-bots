@@ -71,11 +71,11 @@ bot.on("text", ctx => {
             isPlaying=true
         } else {
             const msg = ctx.update.message.text.charAt(0).toLowerCase();
+            const message = ctx.update.message.text;
             player = ctx.update.message.from.username;
             switch (msg) {
                 case herf:
-                    const message = ctx.update.message.text;
-                    const last = message.charAt(message.length - 1);
+                    const last = message.slice(-1);
                     if (last == "ı" || last == "ğ") {
                         herf = '';
                         isPlaying = false;
