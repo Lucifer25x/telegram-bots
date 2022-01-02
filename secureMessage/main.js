@@ -1,5 +1,5 @@
 const { Telegraf } = require('telegraf');
-const config = require('dotenv').config();
+// const config = require('dotenv').config();
 const bot = new Telegraf(process.env.TOKEN);
 let reader;
 let msgText;
