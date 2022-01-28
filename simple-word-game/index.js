@@ -1,7 +1,5 @@
-
 const { Telegraf } = require('telegraf');
 const bot = new Telegraf('');
-
 
 var herf;
 var isPlaying;
@@ -70,7 +68,7 @@ bot.on("text", ctx => {
         } else {
             const msg = ctx.update.message.text.charAt(0).toLowerCase();
             const message = ctx.update.message.text;
-            const last = message.slice(-1);
+            const last = message.slice(-1).toLowerCase();
             player = ctx.update.message.from.username;
             switch (msg) {
                 case herf:
