@@ -7,7 +7,7 @@ let msgText;
 bot.start(ctx => {
     bot.telegram.sendMessage(
         ctx.chat.id,
-        'Salam. Özəl bir şəxsə hər hansısa bir qrupda mesaj yazmaq üçün hazırlanmış bota xoş gəldin.\nLakin bu botu işlətmək üçün mesajı oxumalı olan tərəfin username-ə ehtiyacı var.\nBotu necə işlədəcəyini öyrənmək üçün /help yazın.'
+        'Salam. Özəl bir şəxsə hər hansısa bir qrupda mesaj yazmaq üçün hazırlanmış bota xoş gəldiniz.\nBu botdan istifadə etmək üçün mesajı oxumalı olan tərəfin username'ə ehtiyac var.\nBotu necə işlədəcəyinizi öyrənmək üçün /help yazın.'
     )
 })
 
@@ -47,11 +47,11 @@ bot.command('for', ctx => {
                 if (usr != undefined) {
                     bot.telegram.sendMessage(
                         ctx.chat.id,
-                        `@${user} - click for reading message. (Message sended by @${usr})`,
+                        `@${user} - Mesajı oxumaq üçün düyməyə basın. (Mesaj @${usr} tərəfindən göndərilmişdir.)`,
                         {
                             reply_markup: {
                                 inline_keyboard: [
-                                    [{ text: 'Click', callback_data: 'alert' }]
+                                    [{ text: 'Düymə', callback_data: 'alert' }]
                                 ]
                             }
                         }
@@ -59,11 +59,11 @@ bot.command('for', ctx => {
                 } else {
                     bot.telegram.sendMessage(
                         ctx.chat.id,
-                        `@${user} - click for reading message. (Message sended by ${ctx.update.message.from.id})`,
+                        `@${user} - Mesajı oxumaq üçün düyməyə basın. (Mesaj ${ctx.update.message.from.id} tərəfindən göndərilmişdir.)`,
                         {
                             reply_markup: {
                                 inline_keyboard: [
-                                    [{ text: 'Click', callback_data: 'alert' }]
+                                    [{ text: 'Düymə', callback_data: 'alert' }]
                                 ]
                             }
                         }
@@ -84,7 +84,7 @@ bot.action('alert', ctx => {
     if (clickedBy == reader) {
         ctx.answerCbQuery(msgText);
     } else {
-        ctx.answerCbQuery(`You are not @${reader}`);
+        ctx.answerCbQuery(`Siz @${reader} deyilsiniz.`);
     }
 })
 
